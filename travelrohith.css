@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto,sans-serif";
+}
+
+.nav-links {
+    list-style: none;
+
+
+    display: flex;
+
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-size: 30px;
+
+
+}
+
+.nav-links li a {
+    padding: 10px 10px;
+
+    font-size: 20px;
+}
+
+.header {
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+
+
+
+}
+
+.img {
+    margin-top: 20px;
+    margin-left: 20px;
+
+
+
+}
+
+@media (min-width:787px) {
+    .nav-links {
+        width: auto;
+        margin-top: 0;
+        display: flex;
+        margin-left: auto;
+        justify-content: flex-end;
+
+    }
+}
+
+.bg-container {
+    background-image: url("https://res.cloudinary.com/pnuzimn7/image/upload/v1789758475/WhatsApp_Image_2026-09-19_at_12.35.38_AM_nannuu.jpg");
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.text-container {
+    color: white;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+span {
+    font-size: 40px;
+    font-style: italic;
+    color: orange;
+}
+
+.para {
+    font-size: 20px;
+}
+
+.button {
+    background-color: #FFC247;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.text-container2 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    color: white;
+
+
+}
+
+.text-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 300px;
+    padding-left: 40px;
+    font-style: italic;
+}
+
+.text-container2 p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.heading {
+    color: rgb(54, 54, 125);
+    padding-left: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.subheading {
+
+    padding-left: 50px;
+    text-align: center;
+
+}
+
+.container .subheading {
+    margin: 0;
+
+}
+
+.destination-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.image2 {
+    box-shadow: 2px 2px 4px #00000026;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    max-width: 260px;
+    border-radius: 25px;
+    padding: 20px;
+
+}
+
+.image2 h1 {
+    font-size: 24px;
+    color: #343f4b;
+    margin-top: 10px;
+}
+
+.image2 img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.image2:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+}
+
+.tour-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.tour {
+    box-shadow: 2px 2px 4px #00000026;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    max-width: 260px;
+    border-radius: 25px;
+    padding: 20px;
+
+
+}
+
+.tour img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.tour h1 {
+    font-size: 24px;
+    color: #343f4b;
+    margin-top: 10px;
+
+}
+
+.headingtour {
+    font-style: italic;
+
+    color: #008C95;
+    text-align: center;
+
+}
+
+.paratour {
+    font-weight: Bold;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.tour:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+}
+
+.fly {
+    background-image: url("https://res.cloudinary.com/pnuzimn7/image/upload/v1789986808/WhatsApp_Image_2026-09-21_at_4.01.14_PM.jpg");
+    height: 45vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.fly {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+.flyphoto {
+    box-shadow: 2px 2px 4px #00000026;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    max-width: 260px;
+    border-radius: 25px;
+    padding: 20px;
+
+
+}
+
+.flyphoto img {
+    width: 100%;
+    height: 180px;
+
+    border-radius: 10px;
+}
+
+.flyphoto h1 {
+    font-size: 30px;
+    color: #343f4b;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.fly2 {
+    text-align: center;
+    color: #008C95;
+}
+
+.fly3 {
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+
+}
+
+.final {
+    height: 50px;
+    width: 50px;
+    text-align: start;
+}
+
+.site-footer {
+    top: 0;
+    width: 100%;
+    background-color: #061B3A;
+    text-align: center;
+}
+
+.nannu10 {
+    height: 50px;
+    width: 50px;
+
+}
+
+.site-footer img {
+    border-radius: 50px;
+
+}
